@@ -132,15 +132,15 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
         <ul>
             <li>Assembly
                 <ul>
-                    <li><a href="#armando-el-cuello">Armando cuello</a>
+                    <li><a href="#armando-el-cuello">Assembling the neck</a>
                         <ul>
-                            <li><a href="#versión-estática">Versión Estática</a></li>
-                            <li><a href="#raspberry-y-matrix-voice">Raspberry y Matrix Voice</a></li>
+                            <li><a href="#versión-estática">Static Version</a></li>
+                            <li><a href="#raspberry-y-matrix-voice">Raspberry and Matrix Voice</a></li>
                         </ul>
                     </li>
-                    <li><a href="#base-del-robot">Base del robot</a>
+                    <li><a href="#base-del-robot">Robot Base</a>
                         <ul>
-                            <li><a href="#estático">Estático</a></li>
+                            <li><a href="#estático">Static</a></li>
                         </ul>
                     </li>
                     <li><a href="#ensamblaje-del-interior">Assembly of the interior</a></li>
@@ -214,15 +214,15 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
         <ul>
             <li>Assembly
                 <ul>
-                    <li><a href="#armando-el-cuello">Armando cuello</a>
+                    <li><a href="#armando-el-cuello">Assembling the neck</a>
                         <ul>
-                            <li><a href="#versión-móvil">Versión Móvil</a></li>
-                            <li><a href="#raspberry-y-matrix-voice">Raspberry y Matrix Voice</a></li>
+                            <li><a href="#versión-móvil">Mobile Version</a></li>
+                            <li><a href="#raspberry-y-matrix-voice">Raspberry and Matrix Voice</a></li>
                         </ul>
                     </li>
-                    <li><a href="#base-del-robot">Base del robot</a>
+                    <li><a href="#base-del-robot">Robot Base</a>
                         <ul>
-                            <li><a href="#móvil">Móvil</a></li>
+                            <li><a href="#móvil">Mobile</a></li>
                         </ul>
                     </li>
                     <li><a href="#ensamblaje-del-interior">Assembly of the interior</a></li>
