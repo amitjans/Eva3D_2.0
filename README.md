@@ -1,4 +1,4 @@
-# Manual de ensamblaje: Eva 4.0
+# Assembly Manual: Eva 4.0
 <p align="center">
     <img src='media/image32.jpg' width='250'>
 </p>
@@ -9,19 +9,19 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
 
 | Nombre | foto | Descripción |
 | :--- | :---: | :--- |
-| Eva básico | <img src='media/image48.jpg' width='125'> | La versión básica del robot social Eva cuenta con tres capacidades: <ul><li>Interacción verbal: a través de un arreglo de micrófonos (Matrix Voice) y una bocina.</li><li>Ojos: a través de una pantalla de 5,5".</li><li>Movimiento de la cabeza: a través del uso de dos motores Dynamixel AX-12A ([Hard#10](#Hard#10)).</li></ul> |
-| Eva con cámara | <img src='media/image7.jpg' width='125'> | La versión con cámara del robot social Eva hereda las capacidades de la versión básica. Las nuevas capacidades de esta versión son: <ul><li>Visión: haciendo uso de una cámara Intel RealSense Depth Camera D435i ([Hard#4](#Hard#4))</li></ul> |
-| Eva con cámara y movimiento | <img src='media/image32.jpg' width='125'> | La versión con cámara y movimiento del robot social Eva hereda las capacidades de la versión con cámara. Las nuevas capacidades de esta versión son: <ul><li>Movimiento: haciendo uso de dos nuevos motores y ruedas.</li></ul> |
+| Basic Eva | <img src='media/image48.jpg' width='125'> | The basic version of the social robot Eva has three capabilities: <ul><li>Verbal interaction: through an array of microphones (Matrix Voice) and a speaker.</li><li>Eyes: through a 5.5” screen.</li><li>Head movement: through the use of two motors (Dynamixel AX-12A (Hard#10)).</li></ul> |
+| Eva with camera | <img src='media/image7.jpg' width='125'> | The camera version of the Eva social robot inherits the capabilities of the basic version. The new capabilities of this version are: <ul><li>Vision: using an Intel RealSense Depth Camera D435i (Hard#4).</li></ul> |
+| Eva with camera and movement | <img src='media/image32.jpg' width='125'> | The camera and movement version of the social robot Eva inherits the capabilities of the camera version. The new capabilities of this version include: <ul><li>Movement: using two new motors and wheels.</li></ul> |
 
-# Eva básico
+# Basic Eva
 
 <table border="0">
  <tr>
     <td>
         <ul>
-            <li>Componentes
+            <li>Components
                 <ul>
-                    <li>Imprimibles
+                    <li>Printables
                         <ul>
                             <li><a href="#Imp#1">Imp#1</a></li>
                             <li><a href="#Imp#3">Imp#3</a></li>
@@ -37,7 +37,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
                     </li>
                 </ul>
                 <ul>
-                    <li>Electrónicos
+                    <li>Electronics
                         <ul>
                             <li><a href="#Hard#1">Hard#1</a></li>
                             <li><a href="#Hard#2">Hard#2</a></li>
@@ -56,27 +56,27 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
     </td>
     <td>
         <ul>
-            <li>Ensamblaje
+            <li>Assembly
                 <ul>
-                    <li><a href="#armando-el-cuello">Armando cuello</a>
+                    <li><a href="#armando-el-cuello">Assembling the neck</a>
                         <ul>
-                            <li><a href="#versión-estática">Versión Estática</a></li>
-                            <li><a href="#raspberry-y-matrix-voice">Raspberry y Matrix Voice</a></li>
+                            <li><a href="#versión-estática">Static Version</a></li>
+                            <li><a href="#raspberry-y-matrix-voice">Raspberry and Matrix Voice</a></li>
                         </ul>
                     </li>
-                    <li><a href="#base-del-robot">Base del robot</a>
+                    <li><a href="#base-del-robot">Robot Base</a>
                         <ul>
-                            <li><a href="#estático">Estático</a></li>
+                            <li><a href="#estático">Static</a></li>
                         </ul>
                     </li>
-                    <li><a href="#ensamblaje-del-interior">Ensamblaje del Interior</a></li>
-                    <li><a href="#ensamblaje-de-la-cabeza">Ensamblaje de la cabeza</a>
+                    <li><a href="#ensamblaje-del-interior">Assembly of the interior</a></li>
+                    <li><a href="#ensamblaje-de-la-cabeza">Assembly of the head</a>
                         <ul>
-                            <li><a href="#sin-cámara">Sin cámara</a></li>
-                            <li><a href="#pantalla">Pantalla</a></li>
+                            <li><a href="#sin-cámara">Without camera</a></li>
+                            <li><a href="#pantalla">Display</a></li>
                         </ul>
                     </li>
-                    <li><a href="#ensamblaje-final">Ensamblaje final</a></li>
+                    <li><a href="#ensamblaje-final">Final assembly</a></li>
                 </ul>
             </li>
         </ul>
@@ -85,15 +85,15 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
  </tr>
 </table>
 
-# Eva con cámara
+# Eva with camera
 
 <table border="0">
  <tr>
     <td>
         <ul>
-            <li>Componentes
+            <li>Components
                 <ul>
-                    <li>Imprimibles
+                    <li>Printables
                         <ul>
                             <li><a href="#Imp#2">Imp#2</a></li>
                             <li><a href="#Imp#3">Imp#3</a></li>
@@ -110,7 +110,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
                     </li>
                 </ul>
                 <ul>
-                    <li>Electrónicos
+                    <li>Electronics
                         <ul>
                             <li><a href="#Hard#1">Hard#1</a></li>
                             <li><a href="#Hard#2">Hard#2</a></li>
@@ -130,7 +130,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
     </td>
     <td>
         <ul>
-            <li>Ensamblaje
+            <li>Assembly
                 <ul>
                     <li><a href="#armando-el-cuello">Armando cuello</a>
                         <ul>
@@ -143,18 +143,18 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
                             <li><a href="#estático">Estático</a></li>
                         </ul>
                     </li>
-                    <li><a href="#ensamblaje-del-interior">Ensamblaje del Interior</a></li>
-                    <li><a href="#ensamblaje-de-la-cabeza">Ensamblaje de la cabeza</a>
+                    <li><a href="#ensamblaje-del-interior">Assembly of the interior</a></li>
+                    <li><a href="#ensamblaje-de-la-cabeza">Assembly of the head</a>
                         <ul>
-                            <li><a href="#con-cámara">Con cámara</a>
+                            <li><a href="#con-cámara">With camera</a>
                                 <ul>
-                                    <li><a href="#cámara">Cámara</a></li>
+                                    <li><a href="#cámara">Camera</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#pantalla">Pantalla</a></li>
+                            <li><a href="#pantalla">Display</a></li>
                         </ul>
                     </li>
-                    <li><a href="#ensamblaje-final">Ensamblaje final</a></li>
+                    <li><a href="#ensamblaje-final">Final assembly</a></li>
                 </ul>
             </li>
         </ul>
@@ -163,15 +163,15 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
  </tr>
 </table>
 
-# Eva con cámara y movimiento
+# Eva with camera and movement
 
 <table border="0">
  <tr>
     <td>
         <ul>
-            <li>Componentes
+            <li>Components
                 <ul>
-                    <li>Imprimibles
+                    <li>Printables
                         <ul>
                             <li><a href="#Imp#2">Imp#2</a></li>
                             <li><a href="#Imp#3">Imp#3</a></li>
@@ -187,7 +187,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
                     </li>
                 </ul>
                 <ul>
-                    <li>Electrónicos
+                    <li>Electronics
                         <ul>
                             <li><a href="#Hard#1">Hard#1</a></li>
                             <li><a href="#Hard#2">Hard#2</a></li>
@@ -212,7 +212,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
     </td>
     <td>
         <ul>
-            <li>Ensamblaje
+            <li>Assembly
                 <ul>
                     <li><a href="#armando-el-cuello">Armando cuello</a>
                         <ul>
@@ -225,18 +225,18 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
                             <li><a href="#móvil">Móvil</a></li>
                         </ul>
                     </li>
-                    <li><a href="#ensamblaje-del-interior">Ensamblaje del Interior</a></li>
-                    <li><a href="#ensamblaje-de-la-cabeza">Ensamblaje de la cabeza</a>
+                    <li><a href="#ensamblaje-del-interior">Assembly of the interior</a></li>
+                    <li><a href="#ensamblaje-de-la-cabeza">Assembly of the head</a>
                         <ul>
-                            <li><a href="#con-cámara">Con cámara</a>
+                            <li><a href="#con-cámara">With camera</a>
                                 <ul>
-                                    <li><a href="#cámara">Cámara</a></li>
+                                    <li><a href="#cámara">Camera</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#pantalla">Pantalla</a></li>
+                            <li><a href="#pantalla">Display</a></li>
                         </ul>
                     </li>
-                    <li><a href="#ensamblaje-final">Ensamblaje final</a></li>
+                    <li><a href="#ensamblaje-final">Final assembly</a></li>
                 </ul>
             </li>
         </ul>
@@ -245,7 +245,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
  </tr>
 </table>
 
-# Armando el cuello
+# Assembling the neck
 
 To begin the assembly of the Eva robot, we will start with the interior, specifically the section that allows the head to move. For this, we will need the Dynamixel AX-12A (Hard#10) motors as well as the screws and parts included by the manufacturers along with these motors ([Hard#8](#Hard#8) and [#Hard#11](Hard#11)). The sequence of steps is shown below.
 
@@ -372,8 +372,6 @@ Attaching the previously assembled wheels to the base (Imp#8).
 
 The battery will be attached with the structures that protrude from the center of the base.
 
-#  
-
 # Assembly of the interior
 
 Once the previous two steps are completed, the resulting parts will be joined using four plate supports (Imp#10), for which eight M3x8 screws will be used.
@@ -482,8 +480,7 @@ Once this step is completed, the robot will look as follows according to the ass
     <img src='media/image32.jpg' width='166.5'>
 </p>
 
-# Anexo 1: Listado de piezas
-
+# Appendix 1: List of parts
 
 | Nombre | Foto | Descripción |
 | :--- | :---: | :--- |
@@ -505,7 +502,7 @@ Once this step is completed, the robot will look as follows according to the ass
 | <span id="Hard#16">Hard#16</span> | <img src='media/image17.jpg' width='125'> | Bocina Philips |
 | <span id="Hard#17">Hard#17</span> | <img src='media/image16.jpg' width='125'> | ArbotiX-M |
 
-# Anexo 2: Listado de piezas imprimibles
+# Appendix 2: List of printable parts
 
 | Modelo | Nombre | Descarga |
 | :--- | :---: | :--- |
@@ -524,5 +521,3 @@ Once this step is completed, the robot will look as follows according to the ass
 | <span id="Imp#13">Imp#13</span> | <img src='media/image23.jpg' width='125'> | [Soporte para la pantalla](https://github.com/amitjans/Eva3D_2.0/blob/master/stl/v4/Piezas%20generales/soporte_pantalla.stl) |
 | <span id="Imp#14">Imp#14</span> | <img src='media/image10.jpg' width='125'> | [Soporte para el PCB OpenCR x 4](https://github.com/amitjans/Eva3D_2.0/blob/master/stl/v4/Piezas%20generales/PCB-Support.stl) |
 | <span id="Imp#15">Imp#15</span> || Soporte para el PCB ArbotiX-M x 4 |
-
- 
