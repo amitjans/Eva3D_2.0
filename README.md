@@ -1,6 +1,7 @@
 # Manual de ensamblaje: Eva 4.0
-
-<img src='media/image32.jpg' width='250'>
+<p align="center">
+    <img src='media/image32.jpg' width='250'>
+</p>
 
 # Versions of the social robot Eva
 
@@ -16,7 +17,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
 
 <table border="0">
  <tr>
-    <td style="vertical-align: top;">
+    <td>
         <ul>
             <li>Componentes
                 <ul>
@@ -53,7 +54,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
             </li>
         </ul>
     </td>
-    <td style="vertical-align: top !important;">
+    <td>
         <ul>
             <li>Ensamblaje
                 <ul>
@@ -88,7 +89,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
 
 <table border="0">
  <tr>
-    <td style="vertical-align: top !important;">
+    <td>
         <ul>
             <li>Componentes
                 <ul>
@@ -127,7 +128,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
             </li>
         </ul>
     </td>
-    <td style="vertical-align: top !important;">
+    <td>
         <ul>
             <li>Ensamblaje
                 <ul>
@@ -166,7 +167,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
 
 <table border="0">
  <tr>
-    <td style="vertical-align: top;">
+    <td>
         <ul>
             <li>Componentes
                 <ul>
@@ -209,7 +210,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
             </li>
         </ul>
     </td>
-    <td style="vertical-align: top;">
+    <td>
         <ul>
             <li>Ensamblaje
                 <ul>
