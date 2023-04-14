@@ -2,46 +2,6 @@
 
 <img src='media/image32.jpg' width='250'>
 
-**[Versions of the social robot Eva](#versiones-del-robot-social-eva) 3**
-
-**[Basic Eva](#eva-básico) 4**
-
-**[Eva with camera](#eva-con-cámara) 5**
-
-**[Eva with camera and movement](#eva-con-cámara-y-movimiento) 6**
-
-**[Assembling the Neck](#armando-el-cuello) 7**
-
-> [Static version](#versión-estática) 8
->
-> [Mobile version](#versión-móvil) 8
->
-> [Raspberry and Matrix Voice](#raspberry-y-matrix-voice) 9
-
-**[Base del Robot](#base-del-robot) 9**
-
-> [Static](#estático) 9
->
-> [Mobile](#móvil) 9
-
-**[Assembly of the interior](#ensamblaje-del-interior) 11**
-
-**[Assembly of the head](#ensamblaje-de-la-cabeza) 12**
-
-> [With camera](#con-cámara) 12
->
-> [Camera](#cámara) 12
->
-> [Without camera](#sin-cámara) 12
->
-> [Display](#pantalla) 13
-
-**[Final assembly](#ensamblaje-final) 14**
-
-**[Appendix 1: List of parts](#anexo-1-listado-de-piezas) 16**
-
-**[Appendix 2: List of printable parts](#anexo-2-listado-de-piezas-imprimibles) 19**
-
 # Versions of the social robot Eva
 
 Three versions of the social robot Eva were designed. The assembly demonstrated, as well as the images used in this manual, correspond to the most equipped version of the robot.
@@ -51,8 +11,6 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
 | Eva básico | <img src='media/image48.jpg' width='125'> | La versión básica del robot social Eva cuenta con tres capacidades: <ul><li>Interacción verbal: a través de un arreglo de micrófonos (Matrix Voice) y una bocina.</li><li>Ojos: a través de una pantalla de 5,5".</li><li>Movimiento de la cabeza: a través del uso de dos motores Dynamixel AX-12A ([Hard#10](#Hard#10)).</li></ul> |
 | Eva con cámara | <img src='media/image7.jpg' width='125'> | La versión con cámara del robot social Eva hereda las capacidades de la versión básica. Las nuevas capacidades de esta versión son: <ul><li>Visión: haciendo uso de una cámara Intel RealSense Depth Camera D435i ([Hard#4](#Hard#4))</li></ul> |
 | Eva con cámara y movimiento | <img src='media/image32.jpg' width='125'> | La versión con cámara y movimiento del robot social Eva hereda las capacidades de la versión con cámara. Las nuevas capacidades de esta versión son: <ul><li>Movimiento: haciendo uso de dos nuevos motores y ruedas.</li></ul> |
-
-#  
 
 # Eva básico
 
@@ -95,7 +53,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
             </li>
         </ul>
     </td>
-    <td style="vertical-align: top;">
+    <td style="vertical-align: top !important;">
         <ul>
             <li>Ensamblaje
                 <ul>
@@ -130,7 +88,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
 
 <table border="0">
  <tr>
-    <td style="vertical-align: top;">
+    <td style="vertical-align: top !important;">
         <ul>
             <li>Componentes
                 <ul>
@@ -169,7 +127,7 @@ Three versions of the social robot Eva were designed. The assembly demonstrated,
             </li>
         </ul>
     </td>
-    <td style="vertical-align: top;">
+    <td style="vertical-align: top !important;">
         <ul>
             <li>Ensamblaje
                 <ul>
@@ -465,17 +423,21 @@ Initially, the screen (Hard#1) will be placed, which is recommended to be connec
 
 <table>
 <tr>
-<td><img src='media/image54.jpg' width='125'></td>
-<td><img src='media/image6.jpg' width='125'></td>
-<td><img src='media/image38.jpg' width='125'></td>
-<td><img src='media/image72.jpg' width='125'></td>
+<td><img src='media/image54.jpg' width='155'></td>
+<td><img src='media/image6.jpg' width='155'></td>
+<td><img src='media/image38.jpg' width='155'></td>
+<td><img src='media/image72.jpg' width='155'></td>
 </tr>
 <tr>
 <td colspan="2">We connect the cables and the adapter (Hard#2) to the screen (Hard#1).</td>
 <td colspan="2">We place the screen (Hard#1) on the head (Imp#1) and fix it with the screen holder (Imp#13).</td>
 </tr>
 <tr>
-<td colspan="4"><img src='media/image50.jpg' width='125'></td>
+    <td colspan="4">
+        <p align="center">
+            <img src='media/image50.jpg' width='155'></td>
+        </p>
+    </td>
 </tr>
 </table>
 
@@ -487,43 +449,36 @@ To complete the assembly of the robot, we will attach the interior assembly to t
 
 Next, we will attach the Arms (Imp#11) to the body using an Arm Bracket (Imp#12) for each arm.
 
-<table>
-<tr>
-<td><img src='media/image39.jpg' width='125'></td>
-<td><img src='media/image3.jpg' width='125'></td>
-<td><img src='media/image21.jpg' width='125'></td>
-</tr>
-</table>
+<p align="center">
+    <img src='media/image39.jpg' width='225'>
+    <img src='media/image3.jpg' width='225'>
+    <img src='media/image21.jpg' width='225'>
+</p>
 
 We will place the body (Imp#5 or Imp#6) onto the base (Imp#7 or Imp#8) using four M3x8 screws, so that the body covers the interior and the Matrix Voice is aligned with the body's grille.
 Once this step is completed, we will attach the head (Imp#1 or Imp#2), which is screwed onto the neck's "Bioloid Frame F2" (Hard#8), for which we previously placed four nuts.
-
-<img src='media/image37.jpg' width='125'>
+<p align="center">
+    <img src='media/image37.jpg' width='125'>
+</p>
 
 For this assembly, a Philips Bluetooth speaker (Hard#16Hard#16) was used, which was fixed to the Head Cover (Imp#3Imp#3) using zip ties.
-
-<table>
-<tr>
-<td><img src='media/image61.jpg' width='125'></td>
-<td><img src='media/image55.jpg' width='125'></td>
-</tr>
-</table>
+<p align="center">
+    <img src='media/image61.jpg' width='225'>
+    <img src='media/image55.jpg' width='150'>
+</p>
 
 Finally, we connect the speaker and place the Head Cover (Imp#3Imp#3), which we fix to the head using an M1x8 screw.
-
-<table>
-<tr>
-<td><img src='media/image25.jpg' width='125'></td>
-<td><img src='media/image56.jpg' width='125'></td>
-</tr>
-</table>
+<p align="center">
+    <img src='media/image25.jpg' width='125'>
+    <img src='media/image56.jpg' width='125'>
+</p>
 
 Once this step is completed, the robot will look as follows according to the assembled version.
 
 <p align="center">
-<img src='media/image7.jpg' width='125'>
-<img src='media/image48.jpg' width='140.746'>
-<img src='media/image32.jpg' width='166.5'>
+    <img src='media/image7.jpg' width='125'>
+    <img src='media/image48.jpg' width='140.746'>
+    <img src='media/image32.jpg' width='166.5'>
 </p>
 
 # Anexo 1: Listado de piezas
